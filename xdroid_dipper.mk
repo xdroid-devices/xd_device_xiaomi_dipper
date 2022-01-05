@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 1080
 XDROID_MAINTAINER := Kyuofox
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xdroid_dipper
