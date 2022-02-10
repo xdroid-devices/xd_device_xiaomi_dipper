@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common xdroidOSS stuff.
 $(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_BOOT := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xdroid_dipper
