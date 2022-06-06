@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_dipper.mk
+    $(LOCAL_DIR)/xdroid_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_dipper-user \
-    kscope_dipper-userdebug \
-    kscope_dipper-eng
+    xdroid_dipper-user \
+    xdroid_dipper-userdebug \
+    xdroid_dipper-eng
