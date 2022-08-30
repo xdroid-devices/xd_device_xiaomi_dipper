@@ -23,6 +23,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
+TARGET_KERNEL_CLANG_VERSION := prelude
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bin
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
